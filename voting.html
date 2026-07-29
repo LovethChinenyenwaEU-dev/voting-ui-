@@ -3,26 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Voting System</title>
+    <title>Voting System</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-
-<body class="bg-gradient-to-br from-blue-200 via-white to-purple-200 min-h-screen">
-
+ 
 <div class="flex justify-center items-center min-h-screen p-5">
 
 <div class="bg-grey max-w-lg w-full rounded-3xl shadow-2xl p-8">
 
-<h1 class="text-4xl font-bold text-center text-purple-600">
-🗳 Smart Voting System
+<h1 class="text-4xl font-bold text-center text-pink-600">
+Voting System
 </h1>
 
 <p class="text-center text-white-500">
-Cast your vote securely
+Cast your vote here
 </p>
-
-<p id="clock" class="text-center text-black-600 mt-3 font-semibold"></p>
 
 <form id="voteForm" class="space-y-5 mt-6">
 
@@ -49,10 +45,10 @@ required
 class="w-full border rounded-xl p-3">
 
 <option value="">Select Candidate</option>
-<option value="stephaine">Lilian</option>
-<option value="victor">Austin</option>
-<option value="amara">Kosi</option>
-<option value="rita">David</option>
+<option value="stephaine">stephaine</option>
+<option value="victor">victor</option>
+<option value="amara">amara</option>
+<option value="rita">rita</option>
 
 </select>
 
@@ -60,7 +56,7 @@ class="w-full border rounded-xl p-3">
 
 <button
 type="submit"
-class="w-full bg-purple-600 text-black p-3 rounded-xl hover:bg-purple-700">
+class="w-full bg-pink-600 text-black p-3 rounded-xl hover:bg-pink-700">
 
 Vote
 
@@ -70,9 +66,9 @@ Vote
 
 <div class="mt-8">
 
-<h2 class="font-bold text-xl text-purple-600">
+<h2 class="font-bold text-xl text-pink-600">
 
-🏅 Leaderboard
+Leaderboard
 
 </h2>
 
@@ -86,18 +82,18 @@ Vote
 
 <div class="fixed bottom-6 left-6 bg-white shadow-xl rounded-xl p-5 w-56">
 
-<h2 class="font-bold text-purple-600">
+<h2 class="font-bold text-pink-600">
 Votes Per Candidate
 </h2>
 
-<p>Lilian : <span id="stephVotes">0</span></p>
-<p>Austin : <span id="victorVotes">0</span></p>
-<p>Kosi : <span id="amaraVotes">0</span></p>
-<p>David : <span id="ritaVotes">0</span></p>
+<p>stephaine : <span id="stephVotes">0</span></p>
+<p>victor : <span id="victorVotes">0</span></p>
+<p>amara : <span id="amaraVotes">0</span></p>
+<p>rita : <span id="ritaVotes">0</span></p>
 
 </div>
 
-<div class="fixed bottom-6 right-6 bg-purple-600 text-black rounded-xl shadow-xl p-5 w-52">
+<div class="fixed bottom-6 right-6 bg-pink-600 text-black rounded-xl shadow-xl p-5 w-52">
 
 <h2 class="font-bold">
 
@@ -125,7 +121,7 @@ class="hidden fixed inset-0 bg-black/60 flex justify-center items-center">
 
 <h2 class="text-3xl text-green-600 font-bold">
 
-🏆 Winner
+Winner
 
 </h2>
 
@@ -147,7 +143,9 @@ Close
 
 </div>
 
-<script src="voting.js"></script>
+<script>
+    
+</script>
 
 </body>
 </html>
